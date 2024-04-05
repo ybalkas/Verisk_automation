@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verisk_automation", "Verisk_automation\Verisk_automation.csproj", "{C69EC020-9257-4F21-9B5E-6F4541A1FBF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69EC020-9257-4F21-9B5E-6F4541A1FBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69EC020-9257-4F21-9B5E-6F4541A1FBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69EC020-9257-4F21-9B5E-6F4541A1FBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69EC020-9257-4F21-9B5E-6F4541A1FBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A804E092-0D86-42E0-81A3-75091295769C}
+	EndGlobalSection
+EndGlobal
