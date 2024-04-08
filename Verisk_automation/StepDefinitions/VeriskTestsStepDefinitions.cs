@@ -17,12 +17,18 @@ namespace Verisk_automation.StepDefinitions
     [Binding]
     public class VeriskTestsStepDefinitions
     {
-        public IWebDriver driver = new ChromeDriver();
+
+        public IWebDriver driver;
+        //IWebDriver driver = new ChromeDriver();
+        public VeriskTestsStepDefinitions(IWebDriver driver)
+        {
+            this.driver = driver;
+        }
+
         [Given(@"the user is on the ""([^""]*)"" page")]
         public void GivenTheUserIsOnThePage(string url)
         {     
             driver.Navigate().GoToUrl(url);
-            driver.Manage().Window.Maximize();
             Assert.AreEqual(url, driver.Url);
         }
 

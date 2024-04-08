@@ -120,28 +120,28 @@ this.FeatureBackground();
                             "Value"});
                 table1.AddRow(new string[] {
                             "firstName",
-                            "TestingNamey"});
+                            "TestingName"});
                 table1.AddRow(new string[] {
                             "lastName",
-                            "TestSurnamye"});
+                            "TestSurname"});
                 table1.AddRow(new string[] {
                             "businessEmail",
-                            "ytestingtrtesting@gmail.com"});
+                            "ytesttesting@gmail.com"});
                 table1.AddRow(new string[] {
                             "businessPhone",
                             "073624746"});
                 table1.AddRow(new string[] {
                             "company",
-                            "ABCytr Testing"});
+                            "ABC Testing Company"});
                 table1.AddRow(new string[] {
                             "comments",
-                            "Just Testingh"});
+                            "Just Testing"});
 #line 10
   testRunner.When("User fills the Contact us form", ((string)(null)), table1, "When ");
 #line hidden
 #line 18
-  testRunner.Then("user should be able to see success message \"A Verisk associate will respond to yo" +
-                        "ur request soon.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("user should be able to see success message \"A5e5trtdd Verisk associate will respo" +
+                        "nd to your request soon.\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

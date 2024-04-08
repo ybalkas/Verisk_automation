@@ -10,10 +10,11 @@ Scenario: User should be able to open quesry ticket by logining
   When User fills the Contact us form 
       | Field         | Value                  |
       | firstName     | TestingName            |
-      | lastName      | TestSurnam             |
+      | lastName      | TestSurname             |
       | businessEmail | ytesttesting@gmail.com |
       | businessPhone | 073624746              |
       | company       | ABC Testing Company    |
       | comments      | Just Testing           |  
-  Then user should be able to see success message "A Verisk associate will respond to your request soon."
-
+  Then user should be able to see success message "A5e5trtdd Verisk associate will respond to your request soon."
+  
+ 

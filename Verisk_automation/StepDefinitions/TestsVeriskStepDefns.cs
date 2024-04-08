@@ -14,6 +14,12 @@ namespace Verisk_automation.StepDefinitions
     internal class TestsVeriskStepDefns
     {
         public IWebDriver driver = new ChromeDriver();
+
+        public TestsVeriskStepDefns(IWebDriver driver)
+        {
+            this.driver = driver;
+        }
+
         [Given(@"the user is on the ""([^""]*)"" dashboard")]
         public void GivenTheUserIsOnTheDashboard(string url)
         {
